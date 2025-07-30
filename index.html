@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* Styling the Body element */
+body {
+    background-color:azure;
+    font-family: Verdana;
+    text-align: center;
+}
+/* Styling the Form */
+form {
+    background-color:lightcyan;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+/* Styling .form-control */
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+/* Styling .form-control label */
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+/* Styling .form-control input, select, textarea */
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid black;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+/* Styling Radio button and Checkbox */
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+/* Styling Button */
+button {
+    background-color:lightsteelblue;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+    </style>
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1>College / School Admission Form</h1>
+
+    <form id="form">
+        <div class="form-control">
+    <label for="name" id="label-name">Name</label>
+    <input type="text" id="name" placeholder="Enter your Name"/>
+    </div>
+
+    <form id="form">
+        <div class="form-control">
+    <label for="fname" id="label-name">Fathers Name</label>
+    <input type="text" id="fname" placeholder="Enter your Fathers Name"/>
+    </div>
+
+    <form id="form">
+        <div class="form-control">
+    <label for="mname" id="label-name"> Mothers Name</label>
+    <input type="text" id="mname" placeholder="Enter your Mothers Name"/>
+    </div>
+
+    <form id="form">
+        <div class="form-control">
+    <label for="phone no." id="label-name"> Parent's Phone Number</label>
+    <input type="text" id="mname" placeholder="Enter your Parent's  Phone Number"/>
+    </div>
+
+    <div class="form-control">
+            <label for="email" id="label-email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" />
+        </div>
+        <div class="form-control">
+            <label for="age" id="label-age">Age</label>
+            <input type="text" id="age" placeholder="Enter your age" />
+        </div>
+        <div class="form-control">
+            <label for="role" id="label-role">In which grade you are :</label>
+            <select name="role" id="role">
+                <option value="9th">9th</option>
+                <option value="10th">10th</option>
+                <option value="11th">11th</option>
+                <option value="12th">12th</option>
+                <option value="other">other</option>
+            </select>
+        </div>
+        
+        <div class="form-control">
+            <label>Subjects
+                <small>(Check all that apply)</small>
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp">English
+            </label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp">Hindi
+            </label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp">Marathi
+            </label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp">Science
+            </label>
+            <label for="inp-5">
+                <input type="checkbox" name="inp">Maths
+            </label>
+            <label for="inp-6">
+                <input type="checkbox" name="inp">History
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">Geography
+            </label>
+            <label for="inp-8">
+                <input type="checkbox" name="inp">PCM
+            </label>
+            <label for="inp-9">
+                <input type="checkbox" name="inp">PCB
+            </label>
+            <label for="inp-10">
+                <input type="checkbox" name="inp">PCMB
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="comment">Any comments or suggestions</label>
+            <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+        </div>
+
+        <button type="submit" value="submit">Submit</button>
+    </form>
+</body>
+</html>
+
+
+
+
+
+</body>
+</html>
